@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 /**
- *
+ * @author miguel 
  */
 public class MainActivity extends AppCompatActivity {
     protected Button mainButton;
