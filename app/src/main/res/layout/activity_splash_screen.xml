@@ -23,17 +23,6 @@
         android:visibility="visible"
         />
 
-    <ImageView
-        android:id="@+id/imageLogo"
-        android:layout_width="100dp"
-        android:layout_height="95dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_tent"
-        tools:ignore="VectorDrawableCompat" />
 
     <TextView
         android:id="@+id/suitUp"

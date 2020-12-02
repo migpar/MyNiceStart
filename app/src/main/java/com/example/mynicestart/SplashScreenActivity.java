@@ -33,7 +33,6 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        ImageView myImageLogo = (ImageView) findViewById(R.id.imageLogo);
         ImageView myImageFondo = (ImageView) findViewById(R.id.imagefondo);
         TextView titulo = findViewById(R.id.suitUp);
         Animation animIn = AnimationUtils.loadAnimation(this, R.anim.alpha);
@@ -41,7 +40,6 @@ public class SplashScreenActivity extends AppCompatActivity {
         //Animation rotate = AnimationUtils.loadAnimation(this, R.anim.rotate);
         //Animation traslado = AnimationUtils.loadAnimation(this, R.anim.traslation);
         titulo.startAnimation(animIn);
-        myImageLogo.startAnimation(animOut);
         //myImageFondo.startAnimation(traslado);
 
 

@@ -19,16 +19,15 @@
 
     <Button
         android:id="@+id/buttonMain"
+        style="@style/ButtonStraight"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="@drawable/buttom_custom_border"
         android:onClick="openMain2"
         android:text="Go"
-        app:backgroundTint="@android:color/transparent"
-        app:backgroundTintMode="add"
-        app:layout_constraintStart_toStartOf="@id/guidelineMain1"
         app:layout_constraintEnd_toEndOf="@id/guidelineMain2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guidelineMain1"
         app:layout_constraintTop_toBottomOf="@id/imagePerfil" />
 
     <androidx.constraintlayout.widget.Guideline

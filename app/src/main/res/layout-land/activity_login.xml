@@ -17,28 +17,16 @@
         android:src="@drawable/girl" />
 
 
-    <ImageView
-        android:id="@+id/imageLogo"
-        android:layout_width="122dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_tent"
-        tools:ignore="VectorDrawableCompat" />
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/usernameTIL"
         android:layout_width="0dp"
         android:layout_height="58dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
         android:alpha="0.8"
         android:background="@android:color/white"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/imageLogo"
+        app:layout_constraintTop_toTopOf="parent"
 
         >
 
@@ -88,7 +76,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/teal_200"
+        style="@style/ButtonStraight"
         android:text="Login"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
@@ -102,7 +90,7 @@
         android:id="@+id/buttonRegister"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/teal_200"
+        style="@style/ButtonStraight"
         android:text="Register"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
